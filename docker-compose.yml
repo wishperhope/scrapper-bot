@@ -1,0 +1,5 @@
+version: "3"
+services:
+  scrapperbot:
+    build: .
+    restart: unless-stopped
